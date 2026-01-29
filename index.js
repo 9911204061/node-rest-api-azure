@@ -6,7 +6,7 @@ const productRouter = require('./routers/product.router');
 const router = require('./routers/user.router');
 app.use('/api/users', router);
 app.use('/api/products', productRouter);
-const port = process.env.port ? process.env.port : 3000;
+const port = process.env.port ? process.env.port : 8080;
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
