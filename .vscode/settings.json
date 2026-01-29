@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/5d0d5e6c-4777-491c-8539-b54ff1494136/resourceGroups/testa_group/providers/Microsoft.Web/sites/testa",
+    "appService.deploySubpath": "."
+}
