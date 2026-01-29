@@ -18,9 +18,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run project
-        run: npm run start
-
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
         with:
